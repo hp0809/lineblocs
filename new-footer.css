@@ -1,0 +1,120 @@
+.footer {
+  background-color: #0a1247;
+  color: white;
+  margin: auto;
+  width: 100%;
+
+  padding-top: 20px;
+  padding-bottom: 2.5%;
+  text-align: center;
+  align-items: center;
+}
+
+.footer__nav {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer a:visited {
+  color: white;
+}
+
+.social__links a {
+  margin-right: 5%;
+}
+
+.footer__nav > li {
+  padding: 10px;
+}
+
+.socials__facebook {
+  background-image: url("./images/facebook.png");
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 42px;
+  margin-right: 5%;
+}
+
+.socials__twitter {
+  background-image: url("./images/twitter.png");
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 42px;
+}
+
+footer > p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6a6f94;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 1050px) {
+  .footer {
+    padding-top: 50px;
+    height: 10%;
+    background-color: #0a1247;
+    color: #fff;
+  }
+
+  .footer__linkWrapper {
+    display: flex;
+  }
+
+  .footer__nav {
+    margin: auto;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25%;
+
+    align-items: center;
+  }
+
+  .social__links {
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+  }
+
+  .facebook {
+    background-image: url("./images/facebook.png");
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    margin-right: 10px;
+  }
+
+  .twitter {
+    background-image: url("./images/twitter.png");
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+  }
+
+  footer > p {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6a6f94;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
