@@ -136,7 +136,6 @@ main {
 a:focus {
   color: #6ad6f9;
   border: 1px solid #6a6a6a;
-  height: 100%;
 }
 
 .hero__titleWrapper > h1 {
